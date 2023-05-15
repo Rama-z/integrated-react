@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@integrated-react-store/is-even": ["libs/is-even/src/index.ts"]
+      "@integrated-react-store/is-even": ["libs/is-even/src/index.ts"],
+      "@integrated-react-store/is-odd": ["libs/is-odd/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

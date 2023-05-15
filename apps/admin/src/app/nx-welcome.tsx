@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 /*
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  This is a starter component and can be deleted.
@@ -420,6 +422,7 @@ export function NxWelcome({ title }: { title: string }) {
             <h1>
               <span> Hello there, </span>
               Welcome {title} 👋
+              <Link to="/">Here</Link>
             </h1>
           </div>
 

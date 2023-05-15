@@ -2,13 +2,20 @@
 import styles from './app.module.css';
 
 import NxWelcome from './nx-welcome';
+import { Route, Routes, Link } from 'react-router-dom';
+import { Home } from './page/Home';
+import Products from './products/products';
 
-export function App() {
+export const App = (): JSX.Element => {
   return (
-    <div>
-      <NxWelcome title="store" />
-    </div>
+    <>
+      <div>Hi</div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Products />} />
+      </Routes>
+    </>
   );
-}
+};
 
 export default App;
